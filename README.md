@@ -7,7 +7,7 @@ Base tsconfig setttings
 ## Install
 
 ```
-$ npm install --save-dev @jaredmpeterson/tsconfig
+$ yarn add -D @sendoutcards/tsconfig
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ $ npm install --save-dev @jaredmpeterson/tsconfig
 
 ```json
 {
-  "extends": "@jaredmpeterson/tsconfig",
+  "extends": "@sendoutcards/tsconfig",
   "compilerOptions": {
     "outDir": "dist",
     "lib": ["es2018"]
@@ -26,4 +26,4 @@ $ npm install --save-dev @jaredmpeterson/tsconfig
 
 ## License
 
-MIT © [Jared M. Peterson](https://www.jaredmpeterson.com)
+MIT © [Send Out Cards](https://www.sendoutcards.com)
