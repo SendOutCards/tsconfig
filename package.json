@@ -1,0 +1,21 @@
+{
+  "name": "@jaredmpeterson/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config",
+  "repository": "git@github.com:jaredmpeterson/tsconfig.git",
+  "author": "Jared M. Peterson <jared.peterson@sendoutcards.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "config",
+    "configuration",
+    "ts",
+    "tsconfig",
+    "typescript"
+  ]
+}
