@@ -1,10 +1,11 @@
 {
-  "name": "@jaredmpeterson/tsconfig",
+  "name": "@sendoutcards/tsconfig",
   "version": "1.0.0",
   "description": "Shared TypeScript config",
   "repository": "git@github.com:jaredmpeterson/tsconfig.git",
   "author": "Jared M. Peterson <jared.peterson@sendoutcards.com>",
   "license": "MIT",
+  "private": false,
   "engines": {
     "node": ">=6"
   },
