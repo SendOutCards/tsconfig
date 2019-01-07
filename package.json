@@ -4,7 +4,7 @@
   "description": "Shared TypeScript config",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jaredmpeterson/tsconfig.git"
+    "url": "git+ssh://git@github.com/SendOutCards/tsconfig.git"
   },
   "author": "Jared M. Peterson <jared.peterson@sendoutcards.com>",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "typescript"
   ],
   "bugs": {
-    "url": "https://github.com/jaredmpeterson/tsconfig/issues"
+    "url": "https://github.com/SendOutCards/tsconfig/issues"
   },
-  "homepage": "https://github.com/jaredmpeterson/tsconfig#readme"
+  "homepage": "https://github.com/SendOutCards/tsconfig#readme"
 }
