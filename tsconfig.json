@@ -14,17 +14,12 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true, // required
     "jsx": "preserve", // JSX is compiled by Babel
-    "noEmit": true,
-    "noImplicitAny": true,
     "noImplicitReturns": true,
-    "noImplicitThis": true,
     "noUnusedLocals": true,
     "pretty": true,
     "removeComments": true,
     "resolveJsonModule": true, // to match webpack loader
     "sourceMap": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "suppressImplicitAnyIndexErrors": false
+    "strict": true
   }
 }
