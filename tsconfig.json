@@ -1,37 +1,27 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@src/*": ["src/*"]
-    },
-    "outDir": "build/dist",
-    "rootDir": "src",
-    "module": "esnext",
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext", // required - for import() and import/export
+    "target": "es5", // required
+    "lib": ["dom", "dom.iterable", "esnext"], // required
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "checkJs": true,
+    "moduleResolution": "node", // to match webpack resolution
     "declaration": false, // don't emit declarations
     "downlevelIteration": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "importHelpers": true, // importing helper functions from tslib
-    "isolatedModules": true,
-    "jsx": "react",
-    "moduleResolution": "node",
-    "noEmitHelpers": true, // disable emitting inline helper functions
-    // "noEmitOnError": true,
-    // "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true, // required
+    "jsx": "preserve", // JSX is compiled by Babel
+    "noEmit": true,
     "noImplicitAny": true,
-    // "noImplicitReturns": true,
-    // "noImplicitThis": true,
-    // "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
     "pretty": true,
     "removeComments": true,
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, // to match webpack loader
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,

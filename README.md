@@ -2,7 +2,7 @@
 
 Base tsconfig setttings
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
+> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for SendOutCards projects
 
 ## Install
 
@@ -18,12 +18,11 @@ $ yarn add -D @sendoutcards/tsconfig
 {
   "extends": "@sendoutcards/tsconfig",
   "compilerOptions": {
-    "outDir": "dist",
-    "lib": ["es2018"]
+    ...
   }
 }
 ```
 
 ## License
 
-MIT © [Send Out Cards](https://www.sendoutcards.com)
+MIT © [SendOutCards](https://www.sendoutcards.com)
